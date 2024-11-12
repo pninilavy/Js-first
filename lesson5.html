@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <label>
+        :הכנס שם
+    <br>
+    <input type="text" id="name">
+    <br>
+    <input type="button" value="סנן לפי שם" onclick="f1()">
+
+    <table id="table1"></table>
+
+    </label>
+    <label>
+            מדינות
+        <br>
+        <select name="מדינות" id="countries" onchange="f2()"></select>
+    </label>
+    <div id="bycountry"></div>
+
+    
+        :הכנס שנות הוצאה לאור
+        <br>
+        <label>
+           
+            <input type="number" id="from">
+            :משנה
+        </label>
+        <br>
+        <label>
+           
+        <input type="number" id="till">
+        עד
+        </label>
+        <br>
+        <label>
+            <input type="button" value="סינון לפי שנים" onclick="f3()">
+        </label>
+        <div id="byyears"></div>
+
+
+
+
+        <lable>
+            <input type="text" id="artist">:כתב
+            <br>
+        </lable>
+        <br>
+        <lable>
+            <input type="text" id="title">:כותרת
+            <br>
+        </lable>
+        <br>
+        <lable>
+            <input type="text" id="year">:שנה
+            <br>
+        </lable>
+        <br>
+        <lable>
+            <input type="text" id="company">:חברה
+            <br>
+        </lable>
+        <br>
+        <lable>
+            <input type="text" id="country">:מדינה
+            <br>
+        </lable>
+        <br>
+        <lable>
+            <input type="text" id="price">:מחיר
+            <br>
+        </lable>
+        <br>
+        <lable>
+            <input type="text" id="id">:מספר
+            <br>
+        </lable>
+        <br>
+        <input type="button" value="הוספת מוצר" onclick="f5()">
+        <br>
+        <labal>
+            <input type="number" id="remove">
+            למחיקה ID הכנס
+        </labal>
+        <br>
+        <input type="button" value="למחיקה"  onclick="f6()">
+    <script src="cd_array.js"></script>
+    <script src="lesson5.js"></script>
+</body>
+</html>
